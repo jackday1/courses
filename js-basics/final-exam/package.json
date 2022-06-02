@@ -6,6 +6,7 @@
   "dependencies": {
     "console-table-printer": "^2.11.0",
     "nanoid": "^3.3.4",
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "validator": "^13.7.0"
   }
 }
