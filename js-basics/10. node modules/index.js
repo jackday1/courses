@@ -12,3 +12,6 @@ const writeFile = (filePath, content) => {
 }
 
 writeFile("./reminder2.txt", "Go running!")
+
+const sum = require("./sum")
+console.log(sum(1, 2))
