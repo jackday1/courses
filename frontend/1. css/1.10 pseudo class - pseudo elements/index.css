@@ -1,0 +1,35 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+  background-color: dodgerblue;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.content:hover {
+  background-color: tomato;
+}
+
+input:focus {
+  background-color: royalblue;
+}
+
+button:active {
+  background-color: coral;
+}
+
+.content::before {
+  content: "before content";
+  background-color: red;
+}
+
+.content::after {
+  content: "after content";
+  background-color: black;
+}
