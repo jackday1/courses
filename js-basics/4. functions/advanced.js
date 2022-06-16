@@ -1,12 +1,16 @@
-// callback function - higher order function
+// callback function - higher order function - IIFE
 
 // higher order function
 const modifyNumber = (number, callback) => {
-  const newNumber = number + 1
-  return callback(newNumber)
-}
+  const newNumber = number + 1;
+  return callback(newNumber);
+};
 
 // callback function
-const multipleByTwo = number => number * 2
+const multipleByTwo = (number) => number * 2;
 
-modifyNumber(2, multipleByTwo)
+modifyNumber(2, multipleByTwo);
+
+// IIFE - Immediately Invoked Function Expression
+const helloString = ((name) => `Hello ${name}`)("Jack");
+console.log({ helloString });
