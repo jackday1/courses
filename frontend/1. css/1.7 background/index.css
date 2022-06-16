@@ -1,0 +1,9 @@
+.container {
+  height: 1200px;
+  /* background-color: coral; */
+  background-image: url(./background.jpg);
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+}
