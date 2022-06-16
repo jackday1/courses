@@ -1,0 +1,30 @@
+div {
+  color: green;
+}
+
+.container {
+  color: red;
+}
+
+#first {
+  color: blue;
+}
+
+[data-color="tomato"] {
+  color: tomato;
+}
+
+[href="https://google.com"]
+{
+  color: yellowgreen;
+}
+
+div:nth-child(2) {
+  color: yellow;
+}
+
+div > div {
+  color: dodgerblue !important;
+}
+
+/* important > id > class > ... */
