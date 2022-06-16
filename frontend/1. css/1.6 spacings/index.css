@@ -1,0 +1,38 @@
+.margin {
+  width: 300px;
+  margin-bottom: 50px;
+  padding: 30px;
+  background-color: goldenrod;
+}
+
+.border {
+  padding: 3px;
+  background-color: black;
+}
+
+.padding {
+  padding: 20px;
+  background-color: lightgreen;
+}
+
+.content {
+  padding: 40px;
+  background-color: tomato;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 20px;
+  /* padding: 20px 40px;
+  padding: 20px 30px 40px;
+  padding: 20px 30px 40px 50px; */
+}
+
+span {
+  background-color: tomato;
+}
+
+.first-text {
+  margin-right: 30px;
+  border: 3px dotted dodgerblue;
+}
