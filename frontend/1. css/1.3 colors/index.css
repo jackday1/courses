@@ -1,0 +1,15 @@
+.name {
+  color: red;
+}
+
+.hex {
+  color: #f00;
+}
+
+.rgb {
+  color: rgb(255, 0, 0);
+}
+
+.rgba {
+  color: rgba(255, 0, 0, 1);
+}
