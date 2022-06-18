@@ -1,0 +1,12 @@
+/*transition: property duration timing-function delay*/
+
+input {
+  width: 200px;
+  transition: width 0.35s ease-in-out;
+}
+
+input:focus {
+  width: 400px;
+}
+
+/*https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp*/
