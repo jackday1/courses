@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  background-color: tomato;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}

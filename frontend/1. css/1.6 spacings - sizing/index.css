@@ -23,6 +23,7 @@
 .container {
   border: 2px solid black;
   padding: 20px;
+  margin-bottom: 16px;
   /* padding: 20px 40px;
   padding: 20px 30px 40px;
   padding: 20px 30px 40px 50px; */
@@ -35,4 +36,16 @@ span {
 .first-text {
   margin-right: 30px;
   border: 3px dotted dodgerblue;
+}
+
+.box-sizing-container {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  background-color: dodgerblue;
+  /*default value*/
+  /*box-sizing: content-box;*/
+  box-sizing: border-box;
 }
