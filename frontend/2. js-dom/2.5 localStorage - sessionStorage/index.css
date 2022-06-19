@@ -1,0 +1,9 @@
+#user-list p {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#user-list span {
+  cursor: pointer;
+}
