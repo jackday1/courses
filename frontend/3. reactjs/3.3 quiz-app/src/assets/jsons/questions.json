@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "question": "What is the most popular Front-end framework in the world?",
+    "answers": [
+      { "text": "ReactJS", "isCorrect": true },
+      { "text": "VueJS", "isCorrect": false },
+      { "text": "AngularJS", "isCorrect": false },
+      { "text": "SvelteJS", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "What library is used for routing in ReactJS?",
+    "answers": [
+      { "text": "reactstrap", "isCorrect": false },
+      { "text": "react-router-dom", "isCorrect": true },
+      { "text": "react-bootstrap", "isCorrect": false },
+      { "text": "axios", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "What is ReactJS built-in hook for side effect management?",
+    "answers": [
+      { "text": "useState", "isCorrect": false },
+      { "text": "useEffect", "isCorrect": true },
+      { "text": "useRef", "isCorrect": false },
+      { "text": "useContext", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "What company created ReactJS?",
+    "answers": [
+      { "text": "Google", "isCorrect": false },
+      { "text": "Amazon", "isCorrect": false },
+      { "text": "Facebook", "isCorrect": true },
+      { "text": "Alibaba", "isCorrect": false }
+    ]
+  }
+]
