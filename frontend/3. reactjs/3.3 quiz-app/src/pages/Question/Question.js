@@ -43,7 +43,6 @@ const Question = () => {
 
   if (!question) return null;
 
-  console.log(question.answers);
   return (
     <div className="question-container">
       <div className="question-header">
